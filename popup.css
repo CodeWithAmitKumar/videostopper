@@ -1,0 +1,70 @@
+/* popup.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Light background for a fresh feel */
+    color: #333333; /* Darker text for readability */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .popup-container {
+    text-align: center;
+    background-color: #f8f9fa; /* Soft background for the container */
+    border-radius: 8px; /* Rounded corners for a modern feel */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .popup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Bright blue for the title */
+    margin-bottom: 10px;
+  }
+  
+  .popup-description {
+    font-size: 15px;
+    color: #666666; /* Softer text for the description */
+    margin-bottom: 20px;
+  }
+  
+  .control-container {
+    margin-top: 20px;
+  }
+  
+  .control-btn {
+    background-color: #28a745; /* Green button for positive action */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .control-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Subtle scaling effect on hover */
+  }
+  
+  .status {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777777; /* Light gray for status text */
+  }
+  
+  .status strong {
+    color: #007bff; /* Blue for emphasis on enabled/disabled status */
+  }
+  
+  .control-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.5); /* Focus effect for accessibility */
+  }
+
+  small{
+    font-size:11px;
+  }
+  
